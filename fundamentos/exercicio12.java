@@ -12,7 +12,7 @@ public class exercicio12 {
 		
 		double media = (num1 + num2) / 2;
 		
-		System.out.println("A media do aluno equivale a "+ media);
+		System.out.printf("A media do aluno equivale a %.2f", media);
 		inserir.close();
 	}
 }
